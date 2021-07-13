@@ -16,18 +16,25 @@ img {
     z-index: 2;
 }
 .artist-illustrator-youtuber {
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     font-family: 'Allura', cursive;
 }
 .artist {
-    padding-top: 3vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
 }
 .illustrator {
-    padding-top: 6vw;
+    padding-top: 1.5vw;
+    padding-left: 3.5vw;
 }
 .youtuber {
-    padding-top: 10vw;
+    padding-top: 2vw;
+padding-left: 3.5vw;
+padding-bottom: 0.7vw;
+}
+.enquiries {
+    align: right;
 }
 h3 {
     text-align: center;
@@ -43,10 +50,11 @@ body {
 }
 .icons {
     text-align: center;
+    font-size: 3vw;
     
 }
 .submit-form {
-    width: 15%;
+    width: 90%;
 }
 
 button {
@@ -58,6 +66,10 @@ button {
     max-width: 100%;
    
     
+}
+form {
+    margin-left: 80%;
+    opacity: 0.9;
 }
 
 .container {
