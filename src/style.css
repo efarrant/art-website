@@ -8,6 +8,12 @@ h3 {
     font-family: 'Amatic SC', cursive;
     
 }
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
 .icons {
     text-align: center;
     
