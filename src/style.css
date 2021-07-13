@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    
+}
+h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    
+}
+.icons {
+    text-align: center;
+    
+}
+
+button {
+    display: inline;
+}
+
+.header-box {
+    
+    max-width: 100%;
+   
+    
+}
+img {
+    max-width: 20%;
+    display: block;
+    margin-left: 40vw;
+    padding: 0px 0px 0px 100px;
+    
+}
+.container {
+    max-width: 100%;
+    background-size: cover;
+}
