@@ -12,46 +12,76 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
-<body style="background-image: url('src/images/sofa2.jpg')" id="background">
+<body style="background: #DDD9D6">
     <div class="header-box">
-    <div class="container">
+    <div class="container" style="background-image: url('src/images/sofa2.jpg')" id="background">
         
         
                 <div class="row">
+                    <div class="col"></div>
+                    </div>
+                    <div class = "row">
+                    <div class="col-1"></div>
+                    <div class ="col-5">
+                        <div class="h1"> Emma Ravens</div>
+                        <div class = "row">
+                            <div class="col-2"></div>
+                            <div class="col-2 artist-illustrator-youtuber artist">Artist.</div>
+                            
+                            <div class="col-2 artist-illustrator-youtuber illustrator">Illustrator.</div>
+                            <div class ="col-1"></div>
+                            <div class="col-2 artist-illustrator-youtuber youtuber">YouTuber.</div><div class="col-1"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-1"></div>
+                <div class="col">
+                    <img src="src/images/image1.jpg" alt="..." z-index="99" class="artwork"/>
+                </div>
+                <div class="col">
+                    <img src="src/images/image4.jpg" alt="..." z-index="99" class="artwork"/>
+                </div>
+            </div>
+   
+                    <div class ="row">
                     <div class="col icons">
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-youtube-square"></i>
 
-            </div>
-        </div>
-        <br/>
+            </div></div>
+        
+        <br/><br/><br/><br/><br/> <br/><br/>
         <div class ="row">
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="btn-group mx-auto" role="group" aria-label="first group"> 
             <div class = "col justify-content-center">
                 <button type="button" class="btn btn-light">The Artist</button>
                 <button type="button" class="btn btn-light">Gallery</button>
-                <button type="button" class="btn btn-light">Enquries</button>
+                <button type="button" class="btn btn-light">Enquiries</button>
             </div>
+            
             </div></div></div>
+            <br/><br/><br/>
             
         
-        <br/><br/><br/>
+        
         
 
         <div class="row">
                     <div class="col">
-    <img src="src/images/image1.jpg" class="card-img-top" alt="...">
-    <br/><br/> <br/><br/><br/><br/><br/>
+   
 
     </div></div>
  <div class="container">
-    <h1>Enquiries</h1>
     <form target="_blank" action="https://formsubmit.co/84f4903df274f843830d36210913a35d" method="POST">
         <div class="form-group">
-            <div class="form-row">
+            <div class="form-row submit-form">
                 <div class="col">
                     <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                 </div>
@@ -60,8 +90,8 @@
                 </div>
             </div>
         </div>
-        <div class="form-group">
-            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+        <div class="form-group submit-form">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="6" required></textarea>
         </div>
         <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
     </form>
