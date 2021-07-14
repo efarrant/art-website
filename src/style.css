@@ -1,9 +1,11 @@
 .h1 {
     margin: 0 auto;
     margin-top: 3.5vw;
-    max-width: 40%;
+    margin-left: 2vw;
+    margin-right: 1vw;;
+    width: 30%;
     display: block;
-    object-fit: contain;
+    object-fit:fill;
 
 
 }
@@ -20,15 +22,16 @@ img {
 }
 .artist {
     padding-top: 0.2vw;
-    padding-left: 2vw;
+    
 }
 .illustrator {
     padding-top: 0.6vw;
-    padding-left: 1.7vw;
+    margin-left: 0.6vw;
+   
 }
 .youtuber {
     padding-top: 0.9vw;
-padding-left: 1vw;
+
 padding-bottom: 0.7vw;
 }
 .enquiries {
