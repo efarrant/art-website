@@ -77,12 +77,16 @@ body {
     
 }
 iframe {
-    position: absolute;
-    top: 65%;
-    left: 18%;
+    
+    width: 14vw;
+    height: 7.5vw;
+    display: block;
+    margin: 0 auto;
+    padding-left: 3.8vw;
 }
 .submit-form {
     width: 90%;
+    height: 4vw;
 }
 
 button {
@@ -92,8 +96,6 @@ button {
 .header-box {
     
     max-width: 100%;
-   
-    
 }
 
 form {
@@ -112,6 +114,7 @@ form {
     margin: 0 auto;
     width: 13vw;
     margin-top: 8vw;
+    margin-bottom: 17vw;
     border-radius: 3%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
