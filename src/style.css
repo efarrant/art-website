@@ -1,9 +1,9 @@
 .h1 {
-    
+    margin: 0 auto;
     margin-top: 3.5vw;
     max-width: 80%;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    display: block;
     
 
 
@@ -20,16 +20,16 @@ img {
     opacity: 0.8;
 }
 .artist {
-    padding-top: 2vw;
+    padding-top: 0.2vw;
     padding-left: 2vw;
 }
 .illustrator {
-    padding-top: 1.5vw;
-    padding-left: 4.4vw;
+    padding-top: 0.6vw;
+    padding-left: 1.7vw;
 }
 .youtuber {
-    padding-top: 2vw;
-padding-left: 3.5vw;
+    padding-top: 0.9vw;
+padding-left: 1vw;
 padding-bottom: 0.7vw;
 }
 .enquiries {
@@ -70,16 +70,24 @@ button {
 form {
     
     opacity: 0.9;
+   
 }
 
 .container {
     max-width: 100%;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .artwork {
-    margin: none;
+    display: block;
+    margin: 0 auto;
     width: 15vw;
     margin-top: 8vw;
     border-radius: 3%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.video {
+    display: block;
+    margin: 0 auto;
+    margin-left: 4.5vw;
 }
