@@ -2,9 +2,8 @@
     margin: 0 auto;
     margin-top: 3.5vw;
     max-width: 80%;
-    font-family: 'Poppins', sans-serif;
     display: block;
-    
+    object-fit: contain;
 
 
 }
