@@ -11,6 +11,7 @@
 }
 .container {
     z-index: 1;
+    position: relative;
 }
 img {
     z-index: 2;
@@ -49,10 +50,36 @@ body {
     background-position-x: center;
     background-position-y: center;
 }
+.button-background {
+    background-size: cover;
+}
+.btn-light {
+    color:  #967D69;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2vw;
+    background: #2b1c14;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    border-radius: 0.5vw;
+    font-family: 'Allura', cursive;
+    font-size: 1.4vw;
+    opacity: 0.8;
+    
+}
+.btn-light:hover {
+    background:rgb(241, 218, 199);
+    border: none;
+}
 .icons {
     text-align: center;
     font-size: 3vw;
     
+}
+iframe {
+    position: absolute;
+    top: 65%;
+    left: 18%;
 }
 .submit-form {
     width: 90%;
@@ -71,7 +98,7 @@ button {
 
 form {
     
-    opacity: 0.9;
+    opacity: 0.73;
    
 }
 
@@ -92,4 +119,26 @@ form {
     display: block;
     margin: 0 auto;
     margin-left: 4.5vw;
+}
+.fa-youtube-square {
+    color: #2b1c14;
+    transition: all 200ms ease-in-out;
+}
+
+.fa-youtube-square:hover {
+    color: #472d1d;
+}
+.fa-facebook-square {
+    color: #2b1c14;
+    transition: all 200ms ease-in-out;
+}
+.fa-facebook-square:hover {
+    color: #472d1d;
+}
+.fa-instagram {
+    color: #2b1c14;
+    transition: all 200ms ease-in-out;
+}
+.fa-instagram:hover {
+    color: #472d1d;
 }
